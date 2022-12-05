@@ -44,8 +44,8 @@ cron.schedule("*/1 * * * *", () => {
     // i am checking second row.... this can be automated .. again no time. gotta get the insturctor asap.
     const paragrapahs = await page.evaluate(() => {
       let selectedItem = document.getElementsByTagName("table")[14].rows[1];
-      let innerShit = selectedItem.cells[5].innerText;
-      return innerShit;
+      let itemX = selectedItem.cells[5].innerText;
+      return itemX;
     });
 
     if (paragrapahs === "مغلقة") {
