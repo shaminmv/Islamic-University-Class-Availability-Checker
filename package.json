@@ -1,0 +1,19 @@
+{
+  "name": "iu-subject-checker",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc app.ts && node app.js"
+  },
+  "author": "Shamin",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-cookies-secure": "^2.0.0",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^19.3.0",
+    "twilio": "^3.83.4"
+  }
+}
